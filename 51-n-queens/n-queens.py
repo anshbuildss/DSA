@@ -38,7 +38,7 @@ class Solution:
                            leftRow, upperDiagonal,
                            lowerDiagonal, n)
 
-                # ---------- BACKTRACK ----------
+                #BACKTRACK
                 board[row][col] = "."
                 leftRow[row] = 0
                 lowerDiagonal[row + col] = 0
