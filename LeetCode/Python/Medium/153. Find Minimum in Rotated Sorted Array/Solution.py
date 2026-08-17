@@ -6,7 +6,7 @@ class Solution:
         ans = float('inf')
 
         while low <= high:
-            mid =   low + (high - low)//2
+            mid =  low + (high - low)//2
 
             if nums[mid] >= nums[low]:
                 ans = min(ans, nums[low])
