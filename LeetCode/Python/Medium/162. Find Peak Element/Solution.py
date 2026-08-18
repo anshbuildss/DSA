@@ -4,12 +4,13 @@ class Solution:
         if len(nums) == 1:
             return 0
 
-        if len(nums) == 2 and nums[1] > nums[0]:
-            return 1
 
         n = len(nums)
         low = 1
         high = n - 2
+
+        if nums[n-1] > nums[n-2]:
+            return n-1
 
         while low <= high:
             mid = (low + high)//2
