@@ -1,6 +1,9 @@
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
 
+        if len(nums) == 1:
+            return 0
+
         n = len(nums)
         low = 0 
         high = n - 1
@@ -16,5 +19,5 @@ class Solution:
             else:
                 high = mid - 1
 
-        return -1 
+        return 0
         
