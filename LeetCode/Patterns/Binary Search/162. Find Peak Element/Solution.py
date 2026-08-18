@@ -1,7 +1,7 @@
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
 
-        x
+        
 
         n = len(nums)
         low = 0 
